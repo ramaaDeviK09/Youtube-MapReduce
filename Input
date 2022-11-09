@@ -1,0 +1,3 @@
+Hadoop fs -mkdir Youtube
+Hadoop fs -copyFromLocal youtubeinput.txt/Youtube
+Hadoop jar Youtube.jar Top5_categories /Youtube /youtubemapreduce/result1
